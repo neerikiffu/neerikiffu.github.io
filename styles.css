@@ -1,0 +1,315 @@
+@font-face{
+
+	font-family: "Sarala";
+	src: url('Sarala-Regular.ttf') format('truetype');
+}
+@font-face{
+
+	font-family: "Bebas";
+	src: url('BebasNeue-Regular.ttf') format('truetype');
+}
+
+
+@layer main{
+
+	body{
+
+		overflow: hidden;
+		display: flex;
+
+		margin:0;
+
+		padding:0;
+
+		background: darkgrey;
+	
+		font-family: "Sarala";
+		font-size: 20px;
+	
+		color: white;
+	}
+
+	h1{
+
+		font-size: 60px;
+
+		margin: 0px;
+	}
+
+	h2{
+
+		font-size: 40px;
+
+		margin: 0px;
+
+
+		/*margin-left: 2em;*/
+
+	}
+
+	a > h2:hover{
+
+		color: gray;
+	}
+
+	h3{
+
+		font-size: 30px;
+
+		margin: 0px;
+
+
+		/*margin-left: 2em;*/
+
+	}
+
+	img#flag{
+
+		border: 2px white solid;
+		margin-left: 10px;
+		border-radius: 5px;
+		width: 40px;
+	}
+
+	a:visited {
+
+		color: white;
+	}
+
+	.left-side{
+
+		margin:0px;
+		padding: 50px;
+
+		display: flex;
+
+		height: 85vh;
+
+		align-self: stretch;
+
+		align-items: stretch;
+
+		flex-direction: row;
+		gap: 60px;
+
+		background: black;
+	}
+
+	.left-side-left{
+
+		align-self: center;
+
+
+	}
+
+	.left-side-right{
+
+		display: flex;
+		flex-direction: column;
+		/*width: 40vw;*/
+
+	}	
+
+	.left-side-right > p {
+
+		display: block;
+		margin-left: 40px;
+		font-size: 17px;
+		width: 30vw;
+
+	}
+
+	ul{
+
+		font-size: 15px;
+		list-style-position: inside;
+		padding: 20px;
+		border: 5px solid white;
+		border-radius: 0.5em;
+		align-self: stretch;
+	}
+
+	.preferences-area{
+
+		display: flex;
+		flex: 1;
+		gap: 40px;
+
+		align-self: center;
+
+
+	}
+
+	.preferences-area.pref-column{
+
+		flex:1;
+		width: 300px;
+	}
+
+	.right-side{
+
+		margin-top: 25px;
+		margin-left: 50px;
+
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	.right-side-element{
+
+		display:flex;
+		
+		flex-direction: row;
+		width: 250px;
+
+		align-items: center;
+		gap: 20px;
+	}
+
+
+	.right-side-element * p{
+
+		margin: 0px;
+		padding: 0px;
+
+		width: 300px;
+
+	}
+
+	.right-side-element * h2{
+
+		font-size: 30px;
+	}
+
+
+	.right-side-element.block{
+		display: block;
+
+	}
+
+	.right-side-bottom{
+
+		position: relative;
+		bottom: 550px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.right-side-bottom.row{
+
+		flex: 1;
+
+		background: yellow;
+	}
+
+
+	#bsky{
+
+		align-items: start;
+
+	}
+
+	#kofi{
+
+		position: relative;
+		left: 225px;
+		bottom: 75px;
+		text-align: end;
+
+	}
+
+	#kofi * p{
+
+		width: 200px;
+		position: relative;
+		right: 0px;
+		bottom: 15px;
+	}
+
+	#kofi * h2{
+
+		position: relative;
+		right: 0px;
+		bottom: 15px;
+
+
+
+	}
+
+	#spotify{
+
+		position: relative;
+		align-items: center;
+		top: 75px;
+	}
+
+	#spotify * p {
+
+		top: 25px;
+		position: relative;
+
+	}	
+
+	#spotify * h2 {
+
+		top: 25px;
+		position: relative;
+
+	}
+
+
+	#cohost{
+
+		display: flex;
+		flex-direction: column;
+
+		text-align: center;
+		position: relative;
+		left:325px;
+		bottom: 325px;
+
+	}
+
+	#cohost * p{
+
+		position: relative;
+		bottom: 25px;
+		width: 250px;
+
+	}
+
+	#cohost * h2{
+
+		position: relative;
+		bottom: 25px;
+
+
+
+	}
+
+	#misskey{
+
+		position: relative;
+		bottom: 750px;
+		align-items: start;
+
+
+	}
+
+	#misskey * h2{
+		position: relative;
+		right: 25px;
+		top: 50px;
+
+	}
+
+	#misskey * p{
+		position: relative;
+		top: 50px;
+		width: 150px;
+
+	}
+
+
+}
