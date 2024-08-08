@@ -68,7 +68,7 @@
 		border: 2px white solid;
 		margin-left: 10px;
 		border-radius: 5px;
-		width: 40px;
+		width: 2.691vw;
 	}
 
 	a:visited {
@@ -113,7 +113,7 @@
 	.left-side-right > p {
 
 		display: block;
-		margin-left: 40px;
+		margin-left: 2.691vw;
 		font-size: 17px;
 		width: 30vw;
 
@@ -143,13 +143,13 @@
 	.preferences-area.pref-column{
 
 		flex:1;
-		width: 300px;
+		width: 20.183vw;
 	}
 
 	.right-side{
 
-		margin-top: 25px;
-		margin-left: 50px;
+		margin-top: 3.282vh;
+		margin-left: 3.364vw;
 
 		display: flex;
 		flex-direction: column;
@@ -161,7 +161,7 @@
 		display:flex;
 		
 		flex-direction: row;
-		width: 250px;
+		width: 16.819vw;
 
 		align-items: center;
 		gap: 20px;
@@ -173,7 +173,7 @@
 		margin: 0px;
 		padding: 0px;
 
-		width: 300px;
+		width: 20.183vw;
 
 	}
 
@@ -191,7 +191,7 @@
 	.right-side-bottom{
 
 		position: relative;
-		bottom: 550px;
+		bottom: 72.213vh;
 		display: flex;
 		flex-direction: column;
 	}
@@ -213,25 +213,24 @@
 	#kofi{
 
 		position: relative;
-		left: 225px;
-		bottom: 75px;
+		left: 15.137vw;
+		bottom: 9.847vh;
 		text-align: end;
 
 	}
 
 	#kofi * p{
 
-		width: 200px;
+		width: 13.455vw;
 		position: relative;
-		right: 0px;
-		bottom: 15px;
+		bottom: 1.969vh;
 	}
 
 	#kofi * h2{
 
 		position: relative;
-		right: 0px;
-		bottom: 15px;
+		
+		bottom: 1.969vh;
 
 
 
@@ -241,19 +240,19 @@
 
 		position: relative;
 		align-items: center;
-		top: 75px;
+		top: 9.847vh;
 	}
 
 	#spotify * p {
 
-		top: 25px;
+		top: 3.282vh;
 		position: relative;
 
 	}	
 
 	#spotify * h2 {
 
-		top: 25px;
+		top: 3.282vh;
 		position: relative;
 
 	}
@@ -266,23 +265,23 @@
 
 		text-align: center;
 		position: relative;
-		left:325px;
-		bottom: 325px;
+		left:21.865vw;
+		bottom: 42.671vh;
 
 	}
 
 	#cohost * p{
 
 		position: relative;
-		bottom: 25px;
-		width: 250px;
+		bottom: 3.282vh;
+		width: 16.819vw;
 
 	}
 
 	#cohost * h2{
 
 		position: relative;
-		bottom: 25px;
+		bottom: 3.282vh;
 
 
 
@@ -291,7 +290,7 @@
 	#misskey{
 
 		position: relative;
-		bottom: 750px;
+		bottom: 98.473vh;
 		align-items: start;
 
 
@@ -299,15 +298,15 @@
 
 	#misskey * h2{
 		position: relative;
-		right: 25px;
-		top: 50px;
+		right: 1.682vw;
+		top: 6.565vh;
 
 	}
 
 	#misskey * p{
 		position: relative;
-		top: 50px;
-		width: 150px;
+		top: 6.565vh;
+		width: 10.091vw;
 
 	}
 
